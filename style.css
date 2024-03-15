@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+h1{
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    width: 600px;
+    margin: auto;
+    text-align: center;
+
+}
+.name{
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin: auto;
+   display: flex;
+   margin-top: 20px;
+   justify-content: space-around;
+}
+img{
+    height: 140px;
+    width: 140px;
+    margin: 20px;
+    border: 2px solid white;
+    opacity: 0.5;
+
+}
+body{
+    background-image: url("./Default_cricket_in_night_3.jpg");
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+img:hover{
+    opacity: 1;
+}
